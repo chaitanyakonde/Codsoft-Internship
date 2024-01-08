@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Chaitanya Konde</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am a passionate web developer with a strong background in HTML, CSS, and JavaScript. I love creating interactive and visually appealing websites.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>password generator</h3>
+                <p>Random Module: Use the random module to generate random characters for the password.
+
+String Constants: Define string constants for lowercase letters, uppercase letters, digits, and special characters.
+
+
+
+User Input: Take user input for the desired length of the password.
+
+
+
+Combine Characters: Combine characters from different sets based on user preferences (e.g., include uppercase, lowercase, digits, and special characters).
+
+
+
+Shuffle: Shuffle the combined characters to ensure randomness.
+
+
+
+
+Generate Password: Select the required number of characters from the shuffled set to create the password.</p>
+            </div>
+            <div class="project">
+                <h3>calculator</h3>
+                <p>User Input: Take user input for two numbers and the operation (addition, subtraction, multiplication, division).
+
+Functions: Define functions for each arithmetic operation (addition, subtraction, multiplication, division).
+
+Error Handling: Check for division by zero and handle it appropriately.
+
+Main Logic: Based on the user's chosen operation, call the corresponding function and display the result.</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me:</p>
+            <ul>
+                <li>Email:chaitanyakonde47@gmail.com</li>
+                <li>LinkedIn: linkedin.com/in/chaitanyakonde</li>
+                <li>GitHub: github.com/chaitanyakonde</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chaitanya Konde. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
 
